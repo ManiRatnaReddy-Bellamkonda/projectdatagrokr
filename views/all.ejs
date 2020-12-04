@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+<h1 class="he">Posts</h1>
+
+
+<div class="box">
+  <% ge.forEach(function(f){ %>
+
+
+    <p class="form-control" id="pa"> <%= f.pub %> </p>
+
+
+
+  <% }) %>
+</div>
+
+
+<div class="center">
+
+<a href="/"><button style="margin: 20px;"  class="btn btn-danger b" type="submit" name="button">Logout </button></a>
+
+</div>
+
+
+
+
+
+<footer class="center">For every new user registered there will be a box left blank </footer>
+<footer class="center">  © Mani 2020</footer>
+
+
+
+<%- include('partials/footer') %>
